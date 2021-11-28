@@ -1,0 +1,11 @@
+package cms;
+
+public class Tax implements Saving {
+          private double T;
+          public Tax() {
+  }
+          public Tax(double T) {
+      		super();
+      		this.T = T;    
+          
+}

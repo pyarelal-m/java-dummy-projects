@@ -1,0 +1,17 @@
+package cms;
+
+public abstract class Account {
+	int aid;
+	String holder;
+	double balance;
+	public Account() {
+	         this.();
+	}
+	public Account(int aid, String holder, double balance) {
+		super();
+		this.aid = aid;
+		this.holder = holder;
+		this.balance = balance;
+	}
+
+}

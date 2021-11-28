@@ -1,0 +1,5 @@
+package out.data;
+
+public class C extends data {
+
+}

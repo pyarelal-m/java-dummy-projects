@@ -1,0 +1,32 @@
+package cms;
+
+public class Saving extends Account {
+private double s;
+public Saving() {
+	}
+public Saving(double s) {
+	this.s = s;
+
+
+public double getS() {
+	return s;
+}
+public void setS(double s) {
+	this.s = s;
+}
+@Override
+public void deposit() {
+	// TODO Auto-generated method stub
+	
+}
+@Override
+public void withdraw() {
+	// TODO Auto-generated method stub
+	
+}
+
+
+
+
+
+}

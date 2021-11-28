@@ -1,0 +1,56 @@
+/*PREPARE STATEMENsT*/
+
+import java.sql.*;
+//import oracle.jdbc.driver.*;
+
+class simple5
+{
+	public static void main(String[] args) //throws Exception
+	{
+		try
+		{
+Class.forName("oracle.jdbc.driver.OracleDriver");
+Connection con= DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","scott","tiger");
+        System.out.println("Connected");
+
+		System.out.println("\n sNO code : ");
+		byte[] b=new byte[100];
+		int cnt=System.in.read(b);
+		// cnt == total number of bytes read from the console
+		String tpno=new String(    b , 0 , cnt-2);
+		int sno=Integer.parseInt(tpno);
+
+		System.out.println("\n SNAME  : ");
+		cnt=System.in.read(b);
+		String sname=new String(b,0,cnt);
+
+		System.out.println("\n LOCATION : ");
+		 b=new byte[100];
+		cnt=System.in.read(b);
+		String sloc=new String(b,0,cnt);
+
+             PreparedStatement pst=con.prepareStatement("insert into java values(?,?,?)");
+			pst.setInt(1,sno);
+			pst.setString(2,sname);
+			pst.setString(3,sloc);
+
+			int i=pst.executeUpdate();
+			System.out.println("i : " + i);
+
+		}
+		catch(Exception e){e.printStackTrace();}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

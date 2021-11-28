@@ -1,0 +1,7 @@
+package cms;
+
+public class Checking extends Account {
+	private double c;
+	
+
+}

@@ -1,0 +1,7 @@
+package cms.ob;
+
+import Emp;
+
+public class Manager extends Emp {
+
+}

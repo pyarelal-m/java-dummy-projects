@@ -1,0 +1,21 @@
+package cms;
+abstract class Bonus
+{
+	public abstract void calBonus(double amount);
+}
+
+
+public class Demo5 {
+	public static void main(String[] args) {
+		
+		Bonus ob=new Bonus()
+		{
+			public void calBonus(double amount)
+			{
+				System.out.println("Bonus is "+(amount * 0.10));
+			}
+		};
+
+	}
+
+}

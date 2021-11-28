@@ -1,0 +1,8 @@
+package out.data;
+
+public class B extends data {
+public class B()
+{
+	system.out.println("B");
+}
+}

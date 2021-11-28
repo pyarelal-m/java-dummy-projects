@@ -1,0 +1,15 @@
+package Demo;
+
+import Emp;
+
+public class Manger extends Emp {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

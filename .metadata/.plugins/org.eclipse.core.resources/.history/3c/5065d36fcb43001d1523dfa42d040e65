@@ -1,0 +1,15 @@
+package cms;
+
+public class Demo {
+
+
+	public static void main(String[] args) {
+		Account a;
+		a=new Saving(10000.00);
+		a.deposit();
+		
+		a=new Saving(5000.00);
+		a.withdraw();
+	}
+
+}

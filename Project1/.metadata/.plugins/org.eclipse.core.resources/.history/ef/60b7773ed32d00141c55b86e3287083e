@@ -1,0 +1,7 @@
+package cms.demo;
+
+import Emp;
+
+public class Manager extends Emp {
+
+}

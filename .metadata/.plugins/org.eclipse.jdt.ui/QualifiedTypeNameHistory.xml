@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="cms.data.Employee"/>
+<fullyQualifiedTypeName name="cms.data.Manager"/>
+<fullyQualifiedTypeName name="cms.test.Demo"/>
+<fullyQualifiedTypeName name="cms.data.Engineer"/>
+<fullyQualifiedTypeName name="cms.MyStatic"/>
+<fullyQualifiedTypeName name="cms.Outer.Inner"/>
+<fullyQualifiedTypeName name="cms.Outer"/>
+<fullyQualifiedTypeName name="cms.Outer.StaticInner"/>
+<fullyQualifiedTypeName name="Port.HttpException"/>
+<fullyQualifiedTypeName name="java.awt.Graphics"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="javax.swing.JApplet"/>
+<fullyQualifiedTypeName name="java.awt.Container"/>
+<fullyQualifiedTypeName name="java.awt.event.MouseAdapter"/>
+<fullyQualifiedTypeName name="java.awt.event.MouseMotionListener"/>
+<fullyQualifiedTypeName name="java.awt.event.MouseMotionAdapter"/>
+<fullyQualifiedTypeName name="java.awt.event.WindowAdapter"/>
+</qualifiedTypeNameHistroy>

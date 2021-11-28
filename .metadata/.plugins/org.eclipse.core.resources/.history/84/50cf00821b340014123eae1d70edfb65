@@ -1,0 +1,19 @@
+package mypkg;
+import java.util.*;
+public class Gen1 {
+
+	public static void main(String[] args) {
+        Set<String> set = new TreeSet<>();
+        
+        set.add("50000000000000000000");
+        set.add("5");
+        set.add("thirty");
+        set.add("fourty666666666666"); // not added, only unique
+        
+        for (String item:set){
+            System.out.println("Item: " + item);
+        }    
+
+	}
+
+}

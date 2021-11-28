@@ -1,0 +1,19 @@
+package Birth;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
+public class Date {
+
+
+	public static void main(String[] args) {
+SimpleDateFormat sdf1 = new SimpleDateFormat ( "MM/dd/yyyy" ) ;
+		
+		
+		Calendar c1=Calendar.getInstance();
+		System.out.println("c1.get(Calendar.YEAR): " + c1.get(Calendar.YEAR));
+		System.out.println("c1.get(Calendar.MONTH): " + c1.get(Calendar.MONTH));
+		System.out.println("c1.get(Calendar.DATE): " + c1.get(Calendar.DATE));
+	}
+
+}

@@ -1,0 +1,21 @@
+To quickly locate topics on a particular 
+
+
+subject in the documentation, 
+
+
+enter a query in the Search field. 
+
+
+Use the Search frame () to display the Search view. 
+
+
+You can narrow the scope of your search 
+
+
+by selecting only the sections you are interested in. 
+
+
+
+
+

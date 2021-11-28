@@ -1,0 +1,11 @@
+package cms;
+
+public class Tax implements Account {
+          Private double T;
+          public Tax() {
+  }
+          public Tax(double T) {
+      		super();
+      		this.T = T;    
+          
+}
